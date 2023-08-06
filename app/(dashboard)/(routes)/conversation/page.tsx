@@ -17,6 +17,7 @@ import { Empty } from '@/components/empty';
 import { Loader } from '@/components/loader';
 import { cn } from '@/lib/utils';
 import { UserAvatar } from '@/components/user-avatar';
+import DarkSwitch from '@/components/darkswitch';
 import { BotAvatar } from '@/components/bot-avatar';
 
 const ConversationPage = () => {
@@ -63,6 +64,9 @@ const ConversationPage = () => {
         iconColor="text-violet-500"
         bgColor="bg-violet-500/10"
       />
+      <div className="hidden">
+      <DarkSwitch />
+      </div>
       <div className="px-4 lg:px-8">
         <div>
           <Form {...form}>

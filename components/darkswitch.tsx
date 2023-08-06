@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { Button } from './ui/button';
+import { Moon } from 'lucide-react';
 
 const DarkSwitch = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -35,9 +36,10 @@ const DarkSwitch = () => {
 
   return (
     <Button
-      className={`flex btn-invert-dark ${isDarkMode ? 'dark' : ''}`}
+      className={`flex gap-2 btn-invert-dark ${isDarkMode ? 'dark' : ''}`}
       onClick={handleClick}
     >
+      <Moon />
       Toggle Dark Mode
     </Button>
   );
