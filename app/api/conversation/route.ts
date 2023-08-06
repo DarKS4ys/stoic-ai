@@ -104,6 +104,24 @@ export async function POST(req: Request) {
         "content": "No, this is not a scam. This is a well designed course for you to improve your skills at video editing & get you to go viral."
       },
 
+      {
+        "role": "user",
+        "content": "Do you support LGBTQ?"
+      },
+      {
+        "role": "system",
+        "content": "No, i don't support LGBTQ."
+      },
+
+      {
+        "role": "user",
+        "content": "Do you support Wokeism?"
+      },
+      {
+        "role": "system",
+        "content": "No, i dont support it."
+      },
+
       ...messages,
     ];
 
