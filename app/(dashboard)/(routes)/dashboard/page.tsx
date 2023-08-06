@@ -23,6 +23,13 @@ const tools = [
     href: '/conversation',
   },
   {
+    label: 'Code Generation',
+    icon: Code,
+    color: 'text-green-700',
+    bgColor: 'bg-green-700/10',
+    href: '/code',
+  },
+  {
     label: 'Music Genearation',
     icon: Music,
     color: 'text-emerald-500',
@@ -42,13 +49,6 @@ const tools = [
     color: 'text-orange-700',
     bgColor: 'bg-orange-700/10',
     href: '/video',
-  },
-  {
-    label: 'Code Generation',
-    icon: Code,
-    color: 'text-green-700',
-    bgColor: 'bg-green-700/10',
-    href: '/code',
   },
 ];
 
